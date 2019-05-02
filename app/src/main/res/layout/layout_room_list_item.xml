@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_view"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        app:cardCornerRadius="2dp"
+        app:contentPadding="10dp"
+        android:background="@drawable/background_gradient"
+        >
+
+        <LinearLayout
+            android:background="@drawable/background_gradient"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            >
+
+            <ImageView
+                android:id="@+id/im_language"
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:scaleType="centerCrop"
+                android:layout_height="match_parent" />
+            <LinearLayout
+                android:layout_width="0dp"
+                android:padding="10dp"
+                android:layout_weight="3"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:padding="5dp"
+                    android:textSize="20sp"
+                    android:textColor="#fff"
+                    android:textAllCaps="true"
+                    android:textAlignment="viewStart"
+                    android:id="@+id/name"
+                    android:inputType="textMultiLine"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:gravity="start" />
+                <RatingBar
+                    android:layout_gravity="left"
+                    android:numStars="5"
+                    android:theme="@style/RatingBar"
+                    android:stepSize="0.1"
+                    android:max="5"
+                    android:scaleX="0.5"
+                    android:scaleY="0.5"
+                    android:id="@+id/rating_bar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:textAllCaps="true"
+                    android:padding="5dp"
+                    android:textColor="#fff"
+                    android:textAlignment="viewStart"
+                    android:id="@+id/desc"
+                    android:inputType="textMultiLine"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:gravity="start" />
+                <TextView
+                    android:textAllCaps="true"
+                    android:padding="5dp"
+                    android:textColor="#fff"
+                    android:textAlignment="viewStart"
+                    android:id="@+id/room_avail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:gravity="start" />
+
+
+                <TextView
+                    android:textAllCaps="true"
+                    android:background="#fff"
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp" />
+                <TextView
+                    android:textAllCaps="true"
+                    android:padding="5dp"
+                    android:textColor="#fff"
+                    android:textAlignment="viewStart"
+                    android:id="@+id/phoneno"
+                    android:inputType="number"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:gravity="start" />
+                <TextView
+                    android:textAllCaps="true"
+                    android:padding="5dp"
+                    android:textColor="#fff"
+                    android:textAlignment="viewStart"
+                    android:id="@+id/email"
+                    android:inputType="textEmailAddress"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:gravity="start" />
+
+                <TextView
+                    android:background="#fff"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp" />
+                <TextView
+                    android:textAllCaps="true"
+                    android:padding="5dp"
+                    android:textColor="#fff"
+                    android:textAlignment="viewStart"
+                    android:id="@+id/price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:gravity="start" />
+                <TextView
+                    android:textAllCaps="true"
+                    android:padding="5dp"
+                    android:textColor="#fff"
+                    android:textAlignment="viewStart"
+                    android:id="@+id/size"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:gravity="start" />
+
+
+
+
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

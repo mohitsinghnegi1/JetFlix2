@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "150210912256",
+    "firebase_url": "https://jetflix-mohit.firebaseio.com",
+    "project_id": "jetflix-mohit",
+    "storage_bucket": "jetflix-mohit.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:150210912256:android:8a160c35bc4cb88c",
+        "android_client_info": {
+          "package_name": "com.example.android.jetflix"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "150210912256-mahchrb68797c8n071vfe397thc494h9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDcTyskCxSnYqIctGTq2HyrT4jSuzgPMb8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "150210912256-mahchrb68797c8n071vfe397thc494h9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

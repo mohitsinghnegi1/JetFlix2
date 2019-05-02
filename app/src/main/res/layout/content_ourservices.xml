@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:layout_marginTop="-116dp"
+    android:background="@drawable/background_gradient"
+    android:gravity="center"
+    android:orientation="vertical"
+
+    tools:context=".ourservices"
+   >
+
+    <ViewFlipper
+
+        android:id="@+id/flip1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="0dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/gym" />
+
+            <TextView
+                android:id="@+id/aboutgym"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:background="#0493ea"
+                android:fontFamily="@font/confortaa"
+                android:gravity="center"
+
+
+                android:padding="5dp"
+                android:text="About Gym "
+
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/border"
+                android:fontFamily="@font/confortaa"
+                android:gravity="center"
+                android:inputType="textMultiLine"
+                android:padding="10dp"
+                android:tag="Unf"
+                android:text="We want to help you live a fit and healthy lifestyle! We do this by helping you find the most suitable equipment for your home gym, studio, crossfit box or commercial gym, keeping your budget, lifestyle and fitness goals in mind. We stock a wide range of gym equipment, with strength equipment, cardio, cross training and so much more. "
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/transparent_blue"
+                    android:fontFamily="@font/confortaa"
+                    android:padding="10dp"
+                    android:text="PRICE :$450/month"
+                    android:textAlignment="center"
+                    android:textColor="#fff" />
+
+                <Button
+                    android:id="@+id/showdetails"
+                    android:layout_width="111dp"
+                    android:layout_height="36dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    android:background="#0493ea"
+                    android:fontFamily="@font/confortaa"
+                    android:gravity="center"
+
+
+                    android:text="Know more"
+                    android:textAlignment="center"
+                    android:textColor="#fff"
+                    android:textSize="10sp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        /*second service*/
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="448dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="-40dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/tour" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:background="#0493ea"
+                android:fontFamily="@font/confortaa"
+                android:gravity="center"
+
+
+                android:padding="5dp"
+                android:text="About Upcomming tours.. "
+
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/border"
+                android:fontFamily="@font/confortaa"
+                android:gravity="center"
+                android:inputType="textMultiLine"
+                android:padding="10dp"
+                android:tag="Unf"
+                android:text="From Northern Himalayas to Southern beaches, Eastern jungles to Western deserts, India is flourished with so many cultural and geographical diversities, a perfect reason for India tourism. There is simply no other words that catch the true enigma of this land where great legends still holds its power and impression"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/transparent_blue"
+                    android:fontFamily="@font/confortaa"
+                    android:padding="10dp"
+                    android:text="PRICE :$460/month"
+                    android:textAlignment="center"
+                    android:textColor="#fff" />
+
+                <Button
+
+                    android:layout_width="111dp"
+                    android:layout_height="36dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    android:background="#0493ea"
+                    android:fontFamily="@font/confortaa"
+                    android:gravity="center"
+
+
+                    android:text="Know more"
+                    android:textAlignment="center"
+                    android:textColor="#fff"
+                    android:textSize="10sp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="448dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="-40dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/beautyparlour" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:background="#0493ea"
+                android:fontFamily="@font/confortaa"
+                android:gravity="center"
+
+
+                android:padding="5dp"
+                android:text="About Beauty Parlour "
+
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/border"
+                android:fontFamily="@font/confortaa"
+                android:gravity="center"
+                android:inputType="textMultiLine"
+                android:padding="10dp"
+                android:tag="Unf"
+                android:text="A beauty salon or beauty parlor, or sometimes beauty shop, is an establishment dealing with cosmetic treatments for men and women. Other variations of this type of business include hair salons and spas."
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:textSize="14sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/transparent_blue"
+                    android:fontFamily="@font/confortaa"
+                    android:padding="10dp"
+                    android:text="PRICE :$260/month"
+                    android:textAlignment="center"
+                    android:textColor="#fff" />
+
+                <Button
+
+                    android:layout_width="111dp"
+                    android:layout_height="36dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    android:background="#0493ea"
+                    android:fontFamily="@font/confortaa"
+                    android:gravity="center"
+
+
+                    android:text="Know more"
+                    android:textAlignment="center"
+                    android:textColor="#fff"
+                    android:textSize="10sp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </ViewFlipper>
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="1dp"
+        android:layout_margin="4dp"
+        android:background="#fff" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/button_style"
+            android:fontFamily="@font/confortaa"
+            android:onClick="prevservice"
+            android:scaleX="0.7"
+            android:scaleY="0.7"
+
+            android:text="Previous service"
+            android:textColor="#fff"
+
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/button_style"
+            android:fontFamily="@font/confortaa"
+            android:onClick="nextservice"
+            android:scaleX="0.7"
+            android:scaleY="0.7"
+            android:text="Next Service"
+            android:textColor="#fff"
+
+
+            />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

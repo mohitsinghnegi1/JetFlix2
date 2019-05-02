@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".login"
+    android:background="@drawable/background_gradient"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:layout_gravity="center"
+    android:gravity="center">
+    <ImageView
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:src="@drawable/hot"
+        android:layout_marginBottom="10dp"/>
+    <EditText
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/confortaa"
+        android:textColor="#fff"
+        android:textSize="14sp"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:drawableLeft="@drawable/user"
+
+        android:id="@+id/username"
+        android:padding="10dp"
+        android:inputType="textPersonName"
+        android:background="@drawable/border"
+        android:layout_margin="5dp"
+        android:textColorHint="#fff"
+
+        android:hint="Enter Name"/>
+
+    //email
+    <EditText
+        android:drawableLeft="@drawable/email"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/confortaa"
+        android:textColor="#fff"
+        android:textSize="14sp"
+        android:textAlignment="center"
+        android:gravity="center"
+
+        android:id="@+id/email"
+        android:padding="10dp"
+        android:inputType="textEmailAddress"
+        android:background="@drawable/border"
+        android:layout_margin="5dp"
+        android:textColorHint="#fff"
+
+        android:hint="Enter Email"/>
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/confortaa"
+        android:textColor="#fff"
+        android:textSize="14sp"
+        android:drawableLeft="@drawable/password"
+        android:textAlignment="center"
+        android:gravity="center"
+
+
+        android:padding="10dp"
+        android:inputType="textPassword"
+        android:background="@drawable/border"
+        android:layout_margin="5dp"
+        android:textColorHint="#fff"
+
+        android:hint="Enter Password"/>
+
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_marginBottom="5dp"
+        android:background="#e61b37"
+        android:fontFamily="@font/confortaa"
+        android:layout_gravity="center"
+        android:gravity="center"
+
+
+        android:text="login"
+        android:onClick="landingpage"
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:textSize="14dp" />
+
+    <Button
+        android:id="@+id/signup"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@drawable/background_gradient"
+        android:fontFamily="@font/confortaa"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:onClick="gotosignup"
+        android:text="signup"
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:textSize="14dp" />
+
+
+</LinearLayout>
